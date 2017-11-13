@@ -1,0 +1,170 @@
+@import "variables";
+
+article, header, section{
+  display: flex;
+  flex-direction: column;
+}
+.hero{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets/hero.jpg");
+  height: 235px;
+}
+.hero-content{
+  margin: auto;
+  color: $light;
+	text-align: center;
+}
+.container{
+  max-width: 960px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+.post-container{
+  max-width: 960px;
+  margin: auto;
+  height: 100%;
+}
+#map {
+	height: 300px;
+}
+.col{
+  flex: 1;
+  height: 335px;
+  box-sizing: border-box;
+}
+section:nth-child(2){
+  height: 445px;
+}
+.news-special-content, .hours-content, .contact-content{
+  margin: auto;
+}
+
+
+
+
+.article-post:first-child{
+  padding: 0 0 1.5rem;
+}
+.article-post{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1.5rem 0;
+}
+.article-post p{
+  margin-bottom: 1rem;
+}
+.article-post a h2{
+  color: $primary;
+  font-size: 2rem;
+}
+.article-post li a{
+  content:"";
+  display: block;
+  width: 100%;
+}
+.post {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    min-height: 11rem;
+    display: flex;
+    margin: 1.5rem auto;
+}
+.post-thumbnail {
+    width: 100%;
+    max-width: 100%;
+    min-height: 11rem;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.sub-nav{
+  display: flex;
+  margin-top: 1.5rem;
+}
+.sub-nav li{
+  margin-right: 1rem;
+}
+.sub-nav li a {
+    color: #334047;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+@media only screen and (min-width: 375px){
+  .col{
+  padding: 1rem;
+  height: 405px;
+  }
+  .contact-content{
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sub-nav{
+    margin: 2rem 0 3rem;
+  }
+  .article-post{
+    display: flex;
+    padding: 2rem 0;
+  }
+  .article-post li{
+    flex: 3;
+  }
+  .post{
+    margin: 0 1.5rem 0 0;
+  }
+  .hero{
+    height: 300px;
+  }
+  .col{
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 1000px){
+  .post-thumbnail{
+    width: 45%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .news-special-content{
+    width: 340px;
+  }
+  .hero{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets/hero-lg.png");
+  height: 400px;
+ }
+  article, header, section{
+    display: flex;
+    flex-direction: row;
+ }
+ #map {
+ 	height: 450px;
+ }
+}
+@media only screen and (min-width: 1400px){
+  .post-thumbnail{
+    width: 35%;
+    max-width: 100%;
+  }
+  .hero{
+  width: 100%;
+  height: 500px;
+ }
+ #map {
+ 	height: 550px;
+ }
+ .col{
+   height: 700px;
+ }
+ .news-special-content{
+       width: 400px;
+ }
+ .contact-content{
+   width: 360px;
+ }
+}
