@@ -46,7 +46,10 @@ small{
   font-size: 0.8rem;
 }
 small a{
-      animation: neon1 1.5s ease-in-out infinite alternate;
+	color: $light;
+}
+footer span{
+        animation: neon1 1.5s ease-in-out infinite alternate;
 }
 .news-specials-button{
   background: $light;
@@ -67,6 +70,26 @@ small a{
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
   }
 }
+
+.sub-nav{
+  display: flex;
+  margin-top: 1.5rem;
+}
+.sub-nav li{
+  margin-right: 1rem;
+}
+.sub-nav li a {
+    color: #334047;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.page-title{
+  color: #334047;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+margin-right: 1rem;
+}
 @media only screen and (min-width: 375px){
   .contact-list i{
     font-size: 2rem;
@@ -77,6 +100,12 @@ small a{
   }
 }
 @media only screen and (min-width: 768px){
+  .sub-nav{
+    margin: 2rem 0 0.5rem;
+  }
+  .page-title{
+    margin: 2rem 0 0.5rem;
+  }
   .news-specials-content{
   padding: 2rem 0rem;
   width: 324px;

@@ -35,14 +35,6 @@ section:nth-child(3){
   background-size: cover;
   background-repeat: no-repeat;
 }
-footer{
-	background: $primary;
-	color: $light;
-	text-align: center;
-	padding: 1.5rem;
-	font-size: 1.2rem;
-	text-transform: uppercase;
-}
 .address-li:before {
     display: block;
     content: "";
@@ -71,9 +63,7 @@ footer{
     margin: 1rem auto;
 		width: 50px;
 }
-small a{
-	color: $light;
-}
+
 .hours-content img{
 	width: 56px;
 }
