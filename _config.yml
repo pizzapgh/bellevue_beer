@@ -4,7 +4,7 @@ plugins:
 - jekyll-autoprefixer
 - jekyll-paginate
 
-baseurl: /test_beer
+baseurl: /beer_testing
 
 paginate: 6
 paginate_path: news-specials/page:num/
