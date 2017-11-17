@@ -15,3 +15,4 @@ plugins:
 - jekyll-paginate
 paginate: 6
 paginate_path: news-specials/page:num/
+url: bellevue-beer.siteleaf.net
