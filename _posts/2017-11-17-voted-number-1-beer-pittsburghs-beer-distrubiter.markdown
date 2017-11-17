@@ -1,5 +1,5 @@
 ---
-title: 'Voted #1 Beer Pittsburghs Beer Distrubiter.'
+title: 'Voted #1 Pittsburgh Beer Distrubiter.'
 date: 2017-11-17 16:05:00 Z
 image: "/uploads/10422576_10152861414173505_507319997189107851_n.jpg"
 layout: post-2
