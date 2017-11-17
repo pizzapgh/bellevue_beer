@@ -16,7 +16,7 @@ layout: default
     {% for post in paginator.posts %}
 <ul class="article-post">
   {% if post.image %}
-    <a class="post post-thumbnail" style="background-image: url({{"/assets/" | relative_url | append : post.image}})" href="{{post.url | relative_url}}"></a>
+    <a class="post post-thumbnail" style="background-image: url({{"/uploads/" | relative_url | append : post.image}})" href="{{post.url | relative_url}}"></a>
   {% else %}
   {% endif %}
   <li>
