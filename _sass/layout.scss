@@ -33,7 +33,7 @@ article, header, section{
   max-width: 960px;
   margin: auto;
   height: 100%;
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 3rem;
 }
 
 #map {
@@ -138,6 +138,9 @@ footer{
     margin: auto;
     height: 100%;
     padding: 1.5rem 1rem;
+  }
+  .post-container{
+    padding-bottom: 3.5rem;
   }
   .sub-nav{
     margin: 2rem 0 0.5rem;
