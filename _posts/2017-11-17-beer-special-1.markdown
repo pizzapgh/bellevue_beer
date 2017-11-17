@@ -2,7 +2,7 @@
 title: Beer Special 1
 date: 2017-11-17 03:27:00 Z
 image: "/uploads/new-arrivals-sept.jpg"
-layout: post
+layout: post-2
 ---
 
 ### Beer Specials below
