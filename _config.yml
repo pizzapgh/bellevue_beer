@@ -1,6 +1,5 @@
 ---
 title: Bellevue Beer
-timezone: UTC
 collections:
   posts:
     title: Posts
