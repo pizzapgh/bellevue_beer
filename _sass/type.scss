@@ -14,6 +14,11 @@ h1, h2{
 .article-post a h2{
   color: $primary;
   font-size: 2rem;
+  	transition: all 200ms ease;
+}
+.article-post a h2:hover{
+  color: #5e7a88;
+  	transition: all 200ms ease;
 }
 h2.post-title{
   color: $primary;
@@ -62,13 +67,26 @@ footer span{
 .news-specials-button{
   background: $light;
   color: $primary;
-  padding: 1.5rem 0;
+ padding: 30px 35px;
   display: block;
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 1.5rem auto 0;
-  width: 270px;
+  overflow:hidden;
+  position: relative;
+  width: 300px;
+}
+.news-specials-button:before {
+	font-family: FontAwesome;
+	content:"\f061";
+	position: absolute;
+	top: 31px;
+	right: -45px;
+	transition: all 200ms ease;
+}
+.news-specials-button:hover:before {
+	right: 25px;
 }
 @-webkit-keyframes neon1 {
   from {

@@ -92,6 +92,9 @@ footer{
 	text-transform: uppercase;
 }
 @media only screen and (min-width: 375px){
+  .bgmove, .bgwrap{
+    height: 270px;
+  }
   .col{
   padding: 1rem;
   height: 405px;
@@ -121,11 +124,20 @@ footer{
     font-size: 1.1rem;
 }
 @media only screen and (min-width: 768px) {
+  .post-thumbnail{
+    width: 45%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .bgmove, .bgwrap {
+    height: 340px;
+}
   .container{
     max-width: 960px;
     margin: auto;
     height: 100%;
-    padding: 1.5rem 0rem;
+    padding: 1.5rem 1rem;
   }
   .sub-nav{
     margin: 2rem 0 0.5rem;
