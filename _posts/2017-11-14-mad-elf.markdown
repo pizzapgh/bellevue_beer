@@ -1,9 +1,10 @@
 ---
 title: New Arrivals - Mad Elf
-category: specials
+date: 2017-11-14 00:00:00 Z
+categories:
+- specials
 layout: post-2
 image: mad-elf.jpg
 ---
-
 
 # fart

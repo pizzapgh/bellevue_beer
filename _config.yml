@@ -1,9 +1,17 @@
+---
+title: Bellevue Beer
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 sass:
   style: compressed
 plugins:
 - jekyll-autoprefixer
 - jekyll-paginate
-
-
 paginate: 6
 paginate_path: news-specials/page:num/
