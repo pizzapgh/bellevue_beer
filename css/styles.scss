@@ -1,0 +1,126 @@
+---
+---
+
+@import "type";
+@import "base";
+@import "layout";
+@import "variables";
+
+.current{
+  border-bottom: 5px solid #334047;
+}
+article{
+  color: $light;
+}
+
+
+section{
+  text-align: center;
+}
+section:nth-child(1){
+  background-image: url("../assets/bg-beer-pic-a-sm.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+	padding: 0 1rem;
+}
+section:nth-child(2){
+  background: $secondary;
+}
+section:nth-child(3){
+  background-image: url("../assets/bg-beer-pic-b-sm.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.address-li:before {
+    display: block;
+    content: "";
+    border-bottom: 1px solid $light;
+    margin: 1rem auto;
+		width: 50px;
+}
+.phone-li:before {
+    display: block;
+    content: "";
+    border-bottom: 1px solid $light;
+    margin: 1.5rem auto;
+		width: 50px;
+}
+.follow-li:before {
+    display: block;
+    content: "";
+    border-bottom: 1px solid $light;
+    margin: 1.5rem auto;
+		width: 50px;
+}
+.sunday-li:before {
+    display: block;
+    content: "";
+    border-bottom: 1px solid $light;
+    margin: 1rem auto;
+		width: 50px;
+}
+
+.hours-content img{
+	width: 56px;
+}
+@media only screen and (min-width: 375px) {
+	section:nth-child(1) {
+	    padding: 2rem;
+		}
+		section:nth-child(2){
+		  height: 500px;
+		}
+}
+
+@media only screen and (min-width: 768px) {
+	section:nth-child(1) {
+	    padding: 6rem;
+		}
+section:nth-child(2) {
+    height: 500px;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	section:nth-child(1) {
+	    padding: 0 1rem;
+		}
+		.hero-content img{
+			width: 20px;
+		}
+}
+@media only screen and (min-width: 1400px){
+	section:nth-child(2) {
+	    height: 700px;
+		}
+		.address-li:before {
+		    display: block;
+		    content: "";
+		    border-bottom: 1px solid $light;
+		    margin: 2rem auto;
+				width: 50px;
+		}
+		.phone-li:before {
+		    display: block;
+		    content: "";
+		    border-bottom: 1px solid $light;
+		    margin: 2rem auto;
+				width: 50px;
+		}
+		.follow-li:before {
+		    display: block;
+		    content: "";
+		    border-bottom: 1px solid $light;
+		    margin: 2rem auto;
+				width: 50px;
+		}
+		.sunday-li:before {
+		    display: block;
+		    content: "";
+		    border-bottom: 1px solid $light;
+		        margin: 1rem auto 1.4rem;
+				width: 50px;
+		}
+		.hero-content img{
+			width: 28px;
+		}
+}
