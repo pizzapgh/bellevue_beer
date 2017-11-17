@@ -1,5 +1,5 @@
 ---
-title: September Beer Special
+title: New Arrivals
 date: 2017-11-17 15:37:00 Z
 image: "/uploads/mad-elf.jpg"
 layout: post-2
