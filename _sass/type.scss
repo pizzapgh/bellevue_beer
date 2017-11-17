@@ -4,6 +4,19 @@
 h1, h2{
   text-transform: uppercase;
 }
+.post-container p {
+    margin-bottom: 1.5rem;
+      color: $primary;
+}
+.post-container h1, .post-container h2, .post-container h3, .post-container h4, .post-container h5, .post-container h6  {
+    margin-bottom: 1.5rem;
+    color: $primary;
+}
+.post-container img{
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
 .hero-content a h1{
 		font-size: 2.5rem;
     font-weight: 400;
@@ -75,7 +88,7 @@ footer span{
   margin: 1.5rem auto 0;
   overflow:hidden;
   position: relative;
-  width: 300px;
+  width: 280px;
 }
 .news-specials-button:before {
 	font-family: FontAwesome;
@@ -148,6 +161,9 @@ footer span{
   }
   .contact-list li{
     font-size: 1.2rem;
+  }
+  .news-specials-button{
+    width: 300px;
   }
 }
 @media only screen and (min-width: 1000px){
